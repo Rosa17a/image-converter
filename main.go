@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	// Initialize libvips
+	// Initialize vips
 	vips.Startup(nil)
 	defer vips.Shutdown()
 
